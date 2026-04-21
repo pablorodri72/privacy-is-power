@@ -98,13 +98,13 @@ function toggleSingleTranslation(btn) {
     if (!spanishVisible) {
         textEn.style.display = "none";
         textEs.style.display = "inline";
-        btn.innerHTML = '<img src="./fotos_utilizadas/UK.png" alt="UK" class="btn-flag"> Original';
+        btn.innerHTML = '<img src="/privacy-is-power/fotos_utilizadas/UK.png" alt="UK" class="btn-flag"> Original';
         btn.setAttribute("aria-label", "Mostrar cita original en inglés");
         btn.setAttribute("title", "Mostrar cita original en inglés");
     } else {
         textEn.style.display = "inline";
         textEs.style.display = "none";
-        btn.innerHTML = '<img src="./fotos_utilizadas/espana.png" alt="ES" class="btn-flag"> Traducir';
+        btn.innerHTML = '<img src="/privacy-is-power/fotos_utilizadas/espana.png" alt="ES" class="btn-flag"> Traducir';
         btn.setAttribute("aria-label", "Mostrar traducción al español");
         btn.setAttribute("title", "Mostrar traducción al español");
     }
@@ -137,7 +137,7 @@ const authorDetails = {
     1: {
         name: "Michel Foucault",
         role: "Perfil: Filosofía postestructuralista",
-        image: "./fotos_utilizadas/MichelFoucault.jpg",
+        image: "/privacy-is-power/fotos_utilizadas/MichelFoucault.jpg",
         imageClass: "author-foucault",
         text: "He decidido incluir a Foucault porque sigue siendo muy útil. Da a entender la vigilancia como algo más profundo que una simple observación externa, para el lo importante no es solo que alguien mire, sino que esa posibilidad de ser observado termine influyendo en la conducta. Aunque sus libros fueran mas antiguos su marco ayuda bastante a entender por qué la vigilancia nunca es neutral: siempre reorganiza una relación de poder.",
         links: [
@@ -154,7 +154,7 @@ const authorDetails = {
     2: {
         name: "Shoshana Zuboff",
         role: "Perfil: Sociología económica",
-        image: "./fotos_utilizadas/ShoshanaZuboff.jpg",
+        image: "/privacy-is-power/fotos_utilizadas/ShoshanaZuboff.jpg",
         imageClass: "author-zuboff",
         text: "Zuboff me parece clave porque explica muy bien la parte económica del problema. A diferencia de Véliz que insiste mucho en la autonomía, en la libertad y en el desequilibrio político, Zuboff enseña cómo esa extracción de datos se convierte además en un modelo de negocio. Su aportación mas destacada (para mí) es dejar claro que no se recopilan datos por accidente: se recopilan porque generan predicción, ventaja competitiva y rentabilidad.",
         links: [
@@ -179,7 +179,7 @@ const authorDetails = {
     3: {
         name: "Carissa Véliz",
         role: "Perfil: Ética y Filosofía digital",
-        image: "./fotos_utilizadas/CarissaVeliz.jpg",
+        image: "/privacy-is-power/fotos_utilizadas/CarissaVeliz.jpg",
         imageClass: "author-veliz",
         text: "Véliz es el centro del trabajo porque consigue algo muy importante: entedio que la privacidad es mucho más que esconder cosas y la convertio en una cuestión política. En su planteamiento, el problema no es solo que sepan cosas de nosotros, sino que esa acumulación de datos acaba dando demasiado poder a quien los controla. Esa idea es la base de casi todo este proyecto y, en mi opinión, es la razón por la que el libro sigue siendo tan útil.",
         links: [
@@ -204,7 +204,7 @@ const authorDetails = {
     4: {
         name: "Bruce Schneier",
         role: "Perfil: Criptografía y Ciberseguridad",
-        image: "./fotos_utilizadas/BruceSchneier.jpg",
+        image: "/privacy-is-power/fotos_utilizadas/BruceSchneier.jpg",
         imageClass: "author-bruce",
         text: "Schneier me parece importante porque lleva esta discusión al terreno técnico, mientras otros autores ayudan a entender el problema en términos políticos o sociales, él obliga a pensar en diseño seguro, minimización de datos, cifrado y sistemas que no dependan de recolectar más información de la necesaria. Evita que todo se quede en una crítica general sin consecuencias prácticas.",
         links: [
@@ -225,7 +225,7 @@ const authorDetails = {
     5: {
         name: "Edward Snowden",
         role: "Perfil: Inteligencia de señales (Ex-NSA)",
-        image: "./fotos_utilizadas/EdwardSnowden.jpg",
+        image: "/privacy-is-power/fotos_utilizadas/EdwardSnowden.jpg",
         imageClass: "author-snowden",
         text: "Snowden aparece aquí porque convirtió en prueba algo que durante años parecía exagerado. Sus filtraciones demostraron que la vigilancia masiva no era una hipótesis, sino una realidad técnica y política. Por eso me parece importante en este mapa: sirve para recordar que el problema de la privacidad no se agota en las plataformas ni en la publicidad, sino que también afecta al Estado, a la inteligencia y al equilibrio entre libertad y seguridad.",
         links: [
@@ -246,7 +246,7 @@ const authorDetails = {
     6: {
         name: "Marta Peirano",
         role: "Perfil: Periodismo tecnopolítico",
-        image: "./fotos_utilizadas/MartaPeirano.jpg",
+        image: "/privacy-is-power/fotos_utilizadas/MartaPeirano.jpg",
         imageClass: "author-peirano",
         text: "Peirano me parece importante porque consigue traducir todo este debate a un lenguaje más cercano y reconocible. Explica muy bien cómo plataformas, aplicaciones y redes están diseñadas para captar atención, generar dependencia y extraer datos de manera constante. Gracias a ella se pudieron unir teoría y experiencia cotidiana.",
         links: [
@@ -290,7 +290,7 @@ function getNodeBorderColor(nodeId) {
 }
 
 function getBaseNodesConfig() {
-    const imgPath = "./fotos_utilizadas/";
+    const imgPath = "/privacy-is-power/fotos_utilizadas/";
 
     return [
         { id: 1, label: "Foucault\nFrancia", shape: "circularImage", image: `${imgPath}francia.png`, borderColor: "#4d86d9" },
