@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Pablo Rodríguez">
+    <meta name="description" content="Proyecto sobre Privacy is Power de Carissa Véliz. Análisis realizado por Pablo Rodríguez para la asignatura de Protección de Datos y Ciberseguridad.">
     <title>Privacy is Power — Proyecto de lectura de Pablo Rodríguez</title>
 
-    <meta name="description" content="Proyecto sobre Privacy is Power de Carissa Véliz. Análisis realizado por Pablo Rodríguez para la asignatura de Protección de Datos y Ciberseguridad.">
-
+    <link rel="icon" type="image/png" href="./fotos_utilizadas/portada_libro.jpg">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Space+Mono:wght@400;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
     <link rel="stylesheet" href="style.css">
@@ -16,7 +17,6 @@
     <div id="album-wrapper">
 
         <section id="front-cover" aria-label="Abrir expediente">
-            <div class="cover-glow"></div>
 
             <div class="cover-top">
                 <div class="cover-kicker">PROYECTO DE LECTURA Y CREATIVIDAD · PROTECCIÓN DE DATOS Y CIBERSEGURIDAD</div>
@@ -61,8 +61,8 @@
                 <div class="photo-frame">
                     <div class="photo-content book-cover-frame">
                         <img
-                            src="/privacy-is-power/fotos_utilizadas/portada_libro.jpg"
-                            alt="Portada del libro Privacy is Power"
+                            src="./fotos_utilizadas/portada_libro.jpg"
+                            alt="Portada del libro Privacy is Power de Carissa Véliz"
                             class="book-cover-image"
                         >
                     </div>
@@ -104,22 +104,25 @@
                     </div>
                 </div>
 
+                <!-- ============================
+                     SECCIÓN 1: RESUMEN
+                ============================ -->
                 <section id="panel-vision" class="content-section active">
                     <div class="section-header">
                         <span class="section-tag">INTRODUCCIÓN</span>
                         <h2>La privacidad como escudo</h2>
                         <p class="section-lead">
-                            Lo que más me ha llamado la atencion de este libro no es solo la idea de que nos vigilan en internet, eso a estas alturas, casi todo el mundo lo sospecha. Lo que de verdad me parece importante es cómo Véliz convierte ese hecho en un problema de poder, cuando una empresa, un Estado o una plataforma sabe muchísimo de ti y tú apenas entiendes qué hacen con esa información, la relación deja de ser sana ya que no estás simplemente usando un servicio: estás entrando en una estructura donde la otra parte juega con mucha ventaja.
+                            Lo que más me ha llamado la atención de este libro no es solo la idea de que nos vigilan en internet, eso a estas alturas, casi todo el mundo lo sospecha. Lo que de verdad me parece importante es cómo Véliz convierte ese hecho en un problema de poder: cuando una empresa, un Estado o una plataforma sabe muchísimo de ti y tú apenas entiendes qué hacen con esa información, la relación deja de ser sana. No estás simplemente usando un servicio, estás entrando en una estructura donde la otra parte juega con mucha ventaja.
                         </p>
                     </div>
 
                     <div class="quote-box hero-quote quote-container">
                         <p class="quote-inline">
-                            <span class="lang-en">“Only if the people keep their data will society be free.”</span>
-                            <span class="lang-es" style="display:none;">“Solo si la gente conserva sus datos, la sociedad será libre.”</span>
+                            <span class="lang-en">"Only if the people keep their data will society be free."</span>
+                            <span class="lang-es" style="display:none;">"Solo si la gente conserva sus datos, la sociedad será libre."</span>
                         </p>
                         <p class="quote-ref quote-ref-main">
-                            p. 7 <button class="mini-translate-btn" onclick="toggleSingleTranslation(this)" aria-label="Mostrar traducción de la cita"><img src="/privacy-is-power/fotos_utilizadas/espana.png" alt="ES" class="btn-flag"> Traducir</button>
+                            p. 7 <button class="mini-translate-btn" onclick="toggleSingleTranslation(this)" aria-label="Mostrar traducción de la cita"><img src="./fotos_utilizadas/espana.png" alt="ES" class="btn-flag"> Traducir</button>
                         </p>
                     </div>
 
@@ -127,21 +130,21 @@
                         <article class="evidence-card">
                             <h3>1. La vigilancia no empieza en un caso extremo, empieza en un día normal</h3>
                             <p>
-                                Una de las cosas que mejor hace Véliz es no arrancar desde una gran teoría, sino desde un dia cualquiera de cualquier persona. Te levantas, miras el móvil, entras en una app, usas mapas, pagas, te desplazas y hablas con gente. Todo eso parece normal. Justo ahí está la fuerza del planteamiento: la vigilancia no entra en nuestra vida como algo excepcional, sino como parte del día a día y a raiz de esto nos cuesta tanto verla con claridad.
+                                Una de las cosas que mejor hace Véliz es no arrancar desde una gran teoría, sino desde un día cualquiera de cualquier persona. Te levantas, miras el móvil, entras en una app, usas mapas, pagas, te desplazas y hablas con gente. Todo eso parece normal. Justo ahí está la fuerza del planteamiento: la vigilancia no entra en nuestra vida como algo excepcional, sino como parte del día a día, y a raíz de esto nos cuesta tanto verla con claridad.
                             </p>
                         </article>
 
                         <article class="evidence-card">
                             <h3>2. El problema no es solo la intimidad, sino el desequilibrio</h3>
                             <p>
-                                Creo que esta es la tesis central del libro y también la más potente. Véliz no se queda en la idea de que la privacidad proteja “cosas privadas”, que también. Va más allá: dice que perder privacidad significa ceder poder. Si una empresa sabe qué buscas, qué temes, qué compras y qué horas repites, mientras tú no sabes casi nada sobre sus criterios, sus modelos o sus intereses, la relación ya no es equilibrada. Ahí el asunto deja de ser técnico y pasa a ser político.
+                                Creo que esta es la tesis central del libro y también la más potente. Véliz no se queda en la idea de que la privacidad proteja "cosas privadas", que también. Va más allá: dice que perder privacidad significa ceder poder. Si una empresa sabe qué buscas, qué temes, qué compras y qué horas repites, mientras tú no sabes casi nada sobre sus criterios, sus modelos o sus intereses, la relación ya no es equilibrada. Ahí el asunto deja de ser técnico y pasa a ser político.
                             </p>
                         </article>
 
                         <article class="evidence-card">
                             <h3>3. Los datos personales no son un recurso inocente</h3>
                             <p>
-                                Otra idea que me convence mucho es que los datos no son algo neutro que simplemente “se guarda”, ya que pueden pasar otras cosas como cruzarse, renvender, reutilizar e incluso filtrarse. Y cuando eso pasa, el daño no siempre se puede reparar. Por ejemplo, puedes cambiar una contraseña, pero no puedes cambiar tu voz, tu cara o tus hábitos. El libro insiste en eso y me parece un acierto, porque obliga a ver que el daño digital a veces llega tarde, pero cuando llega puede quedarse mucho tiempo.
+                                Otra idea que me convence mucho es que los datos no son algo neutro que simplemente "se guarda". Pueden cruzarse, revenderse, reutilizarse e incluso filtrarse. Y cuando eso pasa, el daño no siempre se puede reparar. Por ejemplo, puedes cambiar una contraseña, pero no puedes cambiar tu voz, tu cara o tus hábitos. El libro insiste en eso y me parece un acierto, porque obliga a ver que el daño digital a veces llega tarde, pero cuando llega puede quedarse mucho tiempo.
                             </p>
                         </article>
                     </div>
@@ -178,7 +181,7 @@
                                 <div class="timeline-hour">23:00</div>
                                 <div class="timeline-content">
                                     <h4>Cierras sesión, pero el rastro sigue</h4>
-                                    <p>Tú terminas el día, pero no desaparecesdebido a que los metadatos, copias, historiales y rastreadores en segundo plano siguen ahí, guardando informacion de tu vida.</p>
+                                    <p>Tú terminas el día, pero no desapareces: los metadatos, copias, historiales y rastreadores en segundo plano siguen ahí, guardando información de tu vida.</p>
                                 </div>
                             </div>
                         </div>
@@ -191,56 +194,56 @@
                             <article class="evidence-card quote-container">
                                 <h3>Cita 1</h3>
                                 <p class="quote-inline">
-                                    <span class="lang-en">“Privacy protects us from unwanted pressures and abuses of power.”</span>
-                                    <span class="lang-es" style="display:none;">“La privacidad nos protege de presiones indeseadas y abusos de poder.”</span>
+                                    <span class="lang-en">"Privacy protects us from unwanted pressures and abuses of power."</span>
+                                    <span class="lang-es" style="display:none;">"La privacidad nos protege de presiones indeseadas y abusos de poder."</span>
                                 </p>
                                 <p class="quote-ref">
-                                    p. 6 <button class="mini-translate-btn" onclick="toggleSingleTranslation(this)" aria-label="Mostrar traducción de la cita"><img src="/privacy-is-power/fotos_utilizadas/espana.png" alt="ES" class="btn-flag"> Traducir</button>
+                                    p. 6 <button class="mini-translate-btn" onclick="toggleSingleTranslation(this)" aria-label="Mostrar traducción de la cita"><img src="./fotos_utilizadas/espana.png" alt="ES" class="btn-flag"> Traducir</button>
                                 </p>
                                 <p>
-                                    Me parece una frase muy buena porque desmonta una idea bastante superficial de la privacidad, en la frase no aparece como un capricho, sino como una defensa frente a presiones y abusos, y eso cambia mucho el enfoque. Tener una zona de vida que no esté completamente expuesta no es un lujo: es una condición mínima para no quedar a merced de quien tiene más información y más capacidad de maniobra.
+                                    Me parece una frase muy buena porque desmonta una idea bastante superficial de la privacidad. No aparece como un capricho, sino como una defensa frente a presiones y abusos, y eso cambia mucho el enfoque. Tener una zona de vida que no esté completamente expuesta no es un lujo: es una condición mínima para no quedar a merced de quien tiene más información y más capacidad de maniobra.
                                 </p>
                             </article>
 
                             <article class="evidence-card quote-container">
                                 <h3>Cita 2</h3>
                                 <p class="quote-inline">
-                                    <span class="lang-en">“We need it to be autonomous individuals, and for democracies to function well we need citizens to be autonomous.”</span>
-                                    <span class="lang-es" style="display:none;">“La necesitamos para ser individuos autónomos, y para que las democracias funcionen bien necesitamos ciudadanos autónomos.”</span>
+                                    <span class="lang-en">"We need it to be autonomous individuals, and for democracies to function well we need citizens to be autonomous."</span>
+                                    <span class="lang-es" style="display:none;">"La necesitamos para ser individuos autónomos, y para que las democracias funcionen bien necesitamos ciudadanos autónomos."</span>
                                 </p>
                                 <p class="quote-ref">
-                                    p. 6 <button class="mini-translate-btn" onclick="toggleSingleTranslation(this)" aria-label="Mostrar traducción de la cita"><img src="/privacy-is-power/fotos_utilizadas/espana.png" alt="ES" class="btn-flag"> Traducir</button>
+                                    p. 6 <button class="mini-translate-btn" onclick="toggleSingleTranslation(this)" aria-label="Mostrar traducción de la cita"><img src="./fotos_utilizadas/espana.png" alt="ES" class="btn-flag"> Traducir</button>
                                 </p>
                                 <p>
-                                    Aquí se ve muy bien por qué el libro no se queda en lo individual ya que si una persona está constantemente vigilada, empujada o condicionada por sistemas que no entiende, su margen real de decisión se estrecha. Y si eso le pasa a millones de personas a la vez, el daño ya no es privado: afecta al funcionamiento de la democracia. Esta conexión entre autonomía y privacidad me parece de las partes más sólidas del libro.
+                                    Aquí se ve muy bien por qué el libro no se queda en lo individual. Si una persona está constantemente vigilada, empujada o condicionada por sistemas que no entiende, su margen real de decisión se estrecha. Y si eso le pasa a millones de personas a la vez, el daño ya no es privado: afecta al funcionamiento de la democracia. Esta conexión entre autonomía y privacidad me parece de las partes más sólidas del libro.
                                 </p>
                             </article>
 
                             <article class="evidence-card quote-container">
                                 <h3>Cita 3</h3>
                                 <p class="quote-inline">
-                                    <span class="lang-en">“Our lives, translated into data, are the raw material of the surveillance economy.”</span>
-                                    <span class="lang-es" style="display:none;">“Nuestras vidas, traducidas a datos, son la materia prima de la economía de la vigilancia.”</span>
+                                    <span class="lang-en">"Our lives, translated into data, are the raw material of the surveillance economy."</span>
+                                    <span class="lang-es" style="display:none;">"Nuestras vidas, traducidas a datos, son la materia prima de la economía de la vigilancia."</span>
                                 </p>
                                 <p class="quote-ref">
-                                    p. 7 <button class="mini-translate-btn" onclick="toggleSingleTranslation(this)" aria-label="Mostrar traducción de la cita"><img src="/privacy-is-power/fotos_utilizadas/espana.png" alt="ES" class="btn-flag"> Traducir</button>
+                                    p. 7 <button class="mini-translate-btn" onclick="toggleSingleTranslation(this)" aria-label="Mostrar traducción de la cita"><img src="./fotos_utilizadas/espana.png" alt="ES" class="btn-flag"> Traducir</button>
                                 </p>
                                 <p>
-                                    Probablemente esta sea la frase que mejor resume el libro entero, pues lo que hacemos, buscamos, compramos, tememos o repetimos acaba convertido en materia prima de un modelo económico que vive de observarnos y sacar beneficios de eso. Y lo importante aquí es que Véliz no habla solo de anuncios o recomendaciones, habla de una economía montada sobre la extracción del comportamiento humano.
+                                    Probablemente esta sea la frase que mejor resume el libro entero. Lo que hacemos, buscamos, compramos, tememos o repetimos acaba convertido en materia prima de un modelo económico que vive de observarnos y sacar beneficios de eso. Y lo importante aquí es que Véliz no habla solo de anuncios o recomendaciones: habla de una economía montada sobre la extracción del comportamiento humano.
                                 </p>
                             </article>
 
                             <article class="evidence-card quote-container">
                                 <h3>Cita 4</h3>
                                 <p class="quote-inline">
-                                    <span class="lang-en">“Personal data is the asbestos of the tech society.”</span>
-                                    <span class="lang-es" style="display:none;">“Los datos personales son el amianto de la sociedad tecnológica.”</span>
+                                    <span class="lang-en">"Personal data is the asbestos of the tech society."</span>
+                                    <span class="lang-es" style="display:none;">"Los datos personales son el amianto de la sociedad tecnológica."</span>
                                 </p>
                                 <p class="quote-ref">
-                                    p. 44 <button class="mini-translate-btn" onclick="toggleSingleTranslation(this)" aria-label="Mostrar traducción de la cita"><img src="/privacy-is-power/fotos_utilizadas/espana.png" alt="ES" class="btn-flag"> Traducir</button>
+                                    p. 44 <button class="mini-translate-btn" onclick="toggleSingleTranslation(this)" aria-label="Mostrar traducción de la cita"><img src="./fotos_utilizadas/espana.png" alt="ES" class="btn-flag"> Traducir</button>
                                 </p>
                                 <p>
-                                    La comparación es dura, pero precisamente por eso funciona. Algo puede parecer útil, rentable e incluso cómodo durante años, puede estar generando daños profundos por debajo. Aquí Véliz da un paso importante: ya no presenta el dato personal solo como algo valioso o sensible sino como una sustancia peligrosa de almacenar y mover sin límites. Me parece una imagen muy potente porque deja claro que el problema no está solo en el uso que se hace del dato, sino en la propia esencia de acumularlo.
+                                    La comparación es dura, pero precisamente por eso funciona. Algo puede parecer útil, rentable e incluso cómodo durante años y al mismo tiempo puede estar generando daños profundos por debajo. Aquí Véliz da un paso importante: ya no presenta el dato personal solo como algo valioso o sensible, sino como una sustancia peligrosa de almacenar y mover sin límites. Me parece una imagen muy potente porque deja claro que el problema no está solo en el uso que se hace del dato, sino en la propia esencia de acumularlo.
                                 </p>
                             </article>
                         </div>
@@ -253,7 +256,7 @@
                             <article class="evidence-card">
                                 <h3>Zuboff y la maquinaria económica</h3>
                                 <p>
-                                    Si Véliz se centra mucho en la libertad y el desequilibrio de poder, Shoshana Zuboff ayuda a ver cómo todo eso se convierte en negocio. Su idea del capitalismo de la vigilancia sirve para entender que esta obtencion no es un accidente: hay un modelo económico que necesita saber más de nosotros para predecirnos mejor.
+                                    Si Véliz se centra mucho en la libertad y el desequilibrio de poder, Shoshana Zuboff ayuda a ver cómo todo eso se convierte en negocio. Su idea del capitalismo de la vigilancia sirve para entender que esta obtención no es un accidente: hay un modelo económico que necesita saber más de nosotros para predecirnos mejor.
                                 </p>
                             </article>
 
@@ -263,18 +266,18 @@
                                     Bruce Schneier baja esta discusión a un terreno muy concreto: diseño seguro, minimización de datos y cifrado. Véliz formula bien el problema ético y Schneier ayuda a pensar cómo debería responderse desde la arquitectura misma de los sistemas.
                                 </p>
                             </article>
-                            
+
                             <article class="evidence-card">
                                 <h3>Snowden y Peirano: prueba y traducción</h3>
                                 <p>
-                                    Edward Snowden demostró con pruebas reales que la vigilancia masiva no era un bulo, sino una realidad política. Por su parte, Marta Peirano explica estas complejas dinámicas con un lenguaje sencillo y cercano. Así, mientras Snowden aporta las evidencias técnicas y políticas, ella nos ayuda a entender cómo todo ese control digital afecta directamente a nuestra vida diaria
+                                    Edward Snowden demostró con pruebas reales que la vigilancia masiva no era un bulo, sino una realidad política. Por su parte, Marta Peirano explica estas complejas dinámicas con un lenguaje sencillo y cercano. Así, mientras Snowden aporta las evidencias técnicas y políticas, ella nos ayuda a entender cómo todo ese control digital afecta directamente a nuestra vida diaria.
                                 </p>
                             </article>
 
                             <article class="evidence-card" style="background: rgba(157, 63, 47, 0.04); border-top-color: #9d3f2f;">
                                 <h3>El contraargumento: Jeff Jarvis y lo "público"</h3>
                                 <p>
-                                    Para ver el punto de vista opuesto, el mayor desacuerdo con Véliz viene de expertos que confían ciegamente en la tecnología, como Jeff Jarvis (en su libro <em>Partes públicas: Por qué compartir en la era digital mejora nuestra manera de trabajar y vivir</em>) aqui defiende que obsesionarse con la privacidad nos quita los beneficios de compartir. Según él, publicar datos es lo que ayuda a crear nuevas ideas y a conectar a la gente. Véliz piensa que esto es un engaño, pero hay que admitir que todas las grandes empresas de Silicon Valley usan esta excusa para defender su negocio.
+                                    Para ver el punto de vista opuesto, el mayor desacuerdo con Véliz viene de expertos que confían ciegamente en la tecnología, como Jeff Jarvis (en su libro <em>Partes públicas: Por qué compartir en la era digital mejora nuestra manera de trabajar y vivir</em>). Aquí defiende que obsesionarse con la privacidad nos quita los beneficios de compartir. Según él, publicar datos es lo que ayuda a crear nuevas ideas y a conectar a la gente. Véliz piensa que esto es un engaño, pero hay que admitir que todas las grandes empresas de Silicon Valley usan esta excusa para defender su negocio.
                                 </p>
                             </article>
                         </div>
@@ -282,10 +285,13 @@
 
                     <div class="verdict-box">
                         <strong>Para resumir:</strong>
-                        el libro defiende que la privacidad importa porque otorga poder, cuando dejamos que empresas o gobiernos acumulen demasiados datos, no solo perdemos intimidad: perdemos margen para decidir y movernos sin estar siempre perfilados. Ahí esta (para mí) la idea principal del libro.
+                        el libro defiende que la privacidad importa porque otorga poder. Cuando dejamos que empresas o gobiernos acumulen demasiados datos, no solo perdemos intimidad: perdemos margen para decidir y movernos sin estar siempre perfilados. Ahí está (para mí) la idea principal del libro.
                     </div>
                 </section>
 
+                <!-- ============================
+                     SECCIÓN 2: IMPRESIONES
+                ============================ -->
                 <section id="panel-lectura" class="content-section">
                     <div class="section-header">
                         <span class="section-tag">OPINIÓN PERSONAL</span>
@@ -299,20 +305,20 @@
                         <div class="column-card">
                             <h3>Lo que más me convence</h3>
                             <p>
-                                Una de las mejores propuestas del libro es que desmonta la idea de que la privacidad sea solo un asunto individual, Véliz acierta cuando insiste en que también es algo compartido: basta con que una persona sincronice contactos, suba fotos, entregue muestras biométricas o permita ciertos consentimientos para que otras queden expuestas sin haberlo elegido.
+                                Una de las mejores propuestas del libro es que desmonta la idea de que la privacidad sea solo un asunto individual. Véliz acierta cuando insiste en que también es algo compartido: basta con que una persona sincronice contactos, suba fotos, entregue muestras biométricas o permita ciertos consentimientos para que otras queden expuestas sin haberlo elegido.
                             </p>
                             <p>
-                                También me parece muy bueno el cambio de enfoque. Ya no importa solo lo que dices, sino lo que haces, repites o dejas a medias. Los hábitos, los tiempos de atención, las búsquedas y las rutinas acaban describiéndote muchísimo, incluso aunque no hayas contado nada “íntimo” de forma explícita.
+                                También me parece muy bueno el cambio de enfoque. Ya no importa solo lo que dices, sino lo que haces, repites o dejas a medias. Los hábitos, los tiempos de atención, las búsquedas y las rutinas acaban describiéndote muchísimo, incluso aunque no hayas contado nada "íntimo" de forma explícita.
                             </p>
                         </div>
 
                         <div class="column-card">
                             <h3>Lo que desde el punto de vista de ciberseguridad se ve clarísimo</h3>
                             <p>
-                                Todo este lío de la ética tiene un reflejo muy claro en la práctica, me explico: cuantos más datos y detalles dejamos sueltos por ahí, más fácil se lo ponemos a cualquiera para que nos espíe. Con esa información pueden saber qué haces cada día, con quién te juntas o enviarte correos trampa que parecen tan reales que acabas picando. A veces hablamos de la privacidad como si fuera algo filosófico, pero en realidad te puede buscar un problema muy gordo en el mundo real. Por ejemplo, con algo tan simple como las fotos que subes, un estafador puede saber a qué colegio van tus hijos o a qué hora no hay nadie en tu casa. Lo que parece un dato inocente se convierte en la llave para que te roben o te suplanten la identidad.
+                                Todo este lío de la ética tiene un reflejo muy claro en la práctica. Me explico: cuantos más datos y detalles dejamos sueltos por ahí, más fácil se lo ponemos a cualquiera para que nos espíe. Con esa información pueden saber qué haces cada día, con quién te juntas o enviarte correos trampa que parecen tan reales que acabas picando. A veces hablamos de la privacidad como si fuera algo filosófico, pero en realidad te puede buscar un problema muy gordo en el mundo real. Por ejemplo, con algo tan simple como las fotos que subes, un estafador puede saber a qué colegio van tus hijos o a qué hora no hay nadie en tu casa. Lo que parece un dato inocente se convierte en la llave para que te roben o te suplanten la identidad.
                             </p>
                             <p>
-                                Además, las plataformas no necesitan escucharlo todo de forma literal para deducir bastante, con ubicación, horarios, búsquedas, contactos y patrones de uso ya pueden construir perfiles sorprendentemente precisos. Ahí se ve que el problema no es solo moral: también es operativo.
+                                Además, las plataformas no necesitan escucharlo todo de forma literal para deducir bastante. Con ubicación, horarios, búsquedas, contactos y patrones de uso ya pueden construir perfiles sorprendentemente precisos. Ahí se ve que el problema no es solo moral: también es operativo.
                             </p>
                         </div>
                     </div>
@@ -331,14 +337,14 @@
                             <article class="evidence-card">
                                 <h3>Mi privacidad no depende solo de mí</h3>
                                 <p>
-                                    Esta es una de las ideas más fuertes del libro, si otra persona entrega su lista de contactos, usa reconocimiento facial o comparte datos genéticos, no se expone solo ella también arrastra a otros. Ahí la privacidad deja de parecer una preferencia individual y empieza a verse como un entorno común que se puede deteriorar entre todos.
+                                    Esta es una de las ideas más fuertes del libro. Si otra persona entrega su lista de contactos, usa reconocimiento facial o comparte datos genéticos, no se expone solo ella: también arrastra a otros. Ahí la privacidad deja de parecer una preferencia individual y empieza a verse como un entorno común que se puede deteriorar entre todos.
                                 </p>
                             </article>
 
                             <article class="evidence-card">
                                 <h3>La manipulación rara vez se presenta como manipulación</h3>
                                 <p>
-                                    Lo más inquietante no suele ser el mensaje descarado ni la propaganda más obvia a veces basta con un orden concreto de contenidos, con un sistema de recomendaciones bien afinado o con una interfaz pensada para empujarte un poco y precisamente por eso funciona tan bien: porque muchas veces ni se siente como una presión sino como una comodidad o una ayuda
+                                    Lo más inquietante no suele ser el mensaje descarado ni la propaganda más obvia. A veces basta con un orden concreto de contenidos, con un sistema de recomendaciones bien afinado o con una interfaz pensada para empujarte un poco. Precisamente por eso funciona tan bien: porque muchas veces ni se siente como una presión, sino como una comodidad o una ayuda.
                                 </p>
                             </article>
                         </div>
@@ -346,7 +352,7 @@
                         <div class="evidence-card emphasis-card">
                             <h3>Donde más me distancio: la solución no puede recaer en el usuario</h3>
                             <p>
-                                Aquí es donde más me separo del libro, porque entiendo que Véliz proponga hábitos prudentes y decisiones personales mejores, pero se me queda corto pensar que una infraestructura global de extracción de datos se corrige sobre todo con usuarios más responsables, ayuda pero no basta.
+                                Aquí es donde más me separo del libro. Entiendo que Véliz proponga hábitos prudentes y decisiones personales mejores, pero se me queda corto pensar que una infraestructura global de extracción de datos se corrige sobre todo con usuarios más responsables. Ayuda, pero no basta.
                             </p>
                             <p>
                                 En mi opinión, el peso principal debería caer en otro sitio: regulación fuerte, privacidad por defecto, minimización obligatoria de datos, auditorías serias, límites a la recolección y sanciones reales cuando una empresa conserve más información de la necesaria. Si esto no se cambia, acabamos pidiendo al usuario que se defienda solo dentro de un entorno diseñado justo para lo contrario.
@@ -356,27 +362,30 @@
                         <div class="evidence-card reflective-card">
                             <h3>Lo que sigue muy vigente y lo que hoy se queda algo corto</h3>
                             <p>
-                                Lo que sigue plenamente vigente es el diagnóstico general: la privacidad importa porque reparte poder y cuando se concentra demasiada información en pocas personas la libertad se estrecha. En eso el libro me parece muy sólido.
+                                Lo que sigue plenamente vigente es el diagnóstico general: la privacidad importa porque reparte poder, y cuando se concentra demasiada información en pocas manos la libertad se estrecha. En eso el libro me parece muy sólido.
                             </p>
                             <p>
-                                Donde creo que hoy se queda algo corto es en la velocidad con la que han avanzado los sistemas de inteligencia artificial, ya no hace falta tener todos tus datos explícitos para sacar conclusiones bastante útiles sobre ti. A veces basta con parecerte estadísticamente a otros, formar parte de ciertas redes o dejar unas pocas huellas bien cruzadas. El problema que describe Véliz no ha desaparecido sino que mas bien se ha vuelto aún más potente (IAs cada vez son mas finas a la hora de explicar y entrelazar conceptos) y más difícil de detectar.
+                                Donde creo que hoy se queda algo corto es en la velocidad con la que han avanzado los sistemas de inteligencia artificial. Ya no hace falta tener todos tus datos explícitos para sacar conclusiones bastante útiles sobre ti. A veces basta con parecerte estadísticamente a otros, formar parte de ciertas redes o dejar unas pocas huellas bien cruzadas. El problema que describe Véliz no ha desaparecido, sino que se ha vuelto aún más potente y más difícil de detectar.
                             </p>
                         </div>
                     </div>
 
                     <div class="verdict-box">
                         <strong>Mi sensación tras leerlo:</strong>
-                        Como diagnóstico, este libro es un golpe de realidad ya que te obliga a mirar el problema de frente y a dejar de pensar que la privacidad es un detalle sin importancia. Al final, me queda la sensación de que no basta con quejarnos, tambien necesitamos soluciones de verdad, que vayan más allá de lo que dice el autor y que sean más técnicas y exigentes.
-                        Una idea que se me ocurre seria que, por ley todos los servicios usaran cifrado de extremo a extremo por defecto, es decir, nadie ni la empresa que te da el servicio ni un gobierno, pueda leer tus mensajes o ver tus fotos, solo tú y la persona a la que se los envías. Si los datos son ilegibles para los demás desde el principio, ya no hay nada que robar ni con lo que comerciar.
+                        Como diagnóstico, este libro es un golpe de realidad: te obliga a mirar el problema de frente y a dejar de pensar que la privacidad es un detalle sin importancia. Al final, me queda la sensación de que no basta con quejarnos, también necesitamos soluciones de verdad, que vayan más allá de lo que dice el autor y que sean más técnicas y exigentes.
+                        Una idea que se me ocurre sería que, por ley, todos los servicios usaran cifrado de extremo a extremo por defecto: que nadie —ni la empresa que te da el servicio ni un gobierno— pueda leer tus mensajes o ver tus fotos. Solo tú y la persona a la que se los envías. Si los datos son ilegibles para los demás desde el principio, ya no hay nada que robar ni con lo que comerciar.
                     </div>
                 </section>
 
+                <!-- ============================
+                     SECCIÓN 3: DEBATE
+                ============================ -->
                 <section id="panel-debate" class="content-section">
                     <div class="section-header">
                         <span class="section-tag">DISCUSIONES</span>
                         <h2>Discutiendo con el libro: me convence, pero con matices.</h2>
                         <p class="section-lead">
-                            Para mí, leer bien un libro no es asentir a todo sino que ademas sacar tus propias conlcusiones. Por eso he elegido tres ideas centrales del libro y he intentado discutirlas un poco: ver qué aguanta muy bien, qué necesita matiz y dónde yo daria mas enfoque.
+                            Para mí, leer bien un libro no es asentir a todo, sino sacar tus propias conclusiones. Por eso he elegido tres ideas centrales del libro y he intentado discutirlas un poco: ver qué aguanta muy bien, qué necesita matiz y dónde yo daría más enfoque.
                         </p>
                     </div>
 
@@ -385,21 +394,21 @@
                         <article class="debate-card">
                             <div class="debate-head">
                                 <span class="debate-label">ARGUMENTO 1</span>
-                                <h3>“Hay que terminar con la economía basada en datos personales”</h3>
+                                <h3>"Hay que terminar con la economía basada en datos personales"</h3>
                             </div>
 
                             <div class="debate-body">
                                 <div class="debate-side critic">
                                     <h4>Lo que me cuesta aceptar</h4>
                                     <p>
-                                        En el fondo estoy de acuerdo pero no con la formulación demasiado general porque Internet y muchos servicios digitales ya están construidos sobre circulación de datos, así que plantearlo solo como “prohibición” me parece insuficiente. El verdadero problema no es cualquier uso de datos, sino los modelos que viven de extraer, perfilar, conservar y revender información personal de forma masiva.
+                                        En el fondo estoy de acuerdo, pero no con la formulación demasiado general. Internet y muchos servicios digitales ya están construidos sobre circulación de datos, así que plantearlo solo como "prohibición" me parece insuficiente. El verdadero problema no es cualquier uso de datos, sino los modelos que viven de extraer, perfilar, conservar y revender información personal de forma masiva.
                                     </p>
                                 </div>
 
                                 <div class="debate-side defend">
                                     <h4>Lo que sí le compro</h4>
                                     <p>
-                                        Aun así, me parece importante que Véliz marque un límite. Durante demasiado tiempo se ha asumido que, si un modelo de negocio funciona y da beneficios, entonces ya está legitimado. El libro obliga a discutir justo eso: no todo lo rentable es aceptable sobre todo cuando depende de infringir derechos o de crear asimetrías de poder tan grandes.
+                                        Aun así, me parece importante que Véliz marque un límite. Durante demasiado tiempo se ha asumido que, si un modelo de negocio funciona y da beneficios, entonces ya está legitimado. El libro obliga a discutir justo eso: no todo lo rentable es aceptable, sobre todo cuando depende de infringir derechos o de crear asimetrías de poder tan grandes.
                                     </p>
                                 </div>
                             </div>
@@ -408,21 +417,21 @@
                         <article class="debate-card">
                             <div class="debate-head">
                                 <span class="debate-label">ARGUMENTO 2</span>
-                                <h3>“La privacidad es colectiva”</h3>
+                                <h3>"La privacidad es colectiva"</h3>
                             </div>
 
                             <div class="debate-body">
                                 <div class="debate-side critic">
                                     <h4>Creo que el problema hoy es todavía mayor</h4>
                                     <p>
-                                        Aquí no discrepo con Véliz, de hecho voy mas alla. Con sistemas de IA cada vez más entrenados, a veces ya no hace falta que alguien suba directamente tus datos para que se saquen conclusiones útiles sobre ti. Se puede inferir bastante a partir de patrones parecidos, del grupo al que perteneces o del entorno en el que te mueves.
+                                        Aquí no discrepo con Véliz, de hecho voy más allá. Con sistemas de IA cada vez más entrenados, a veces ya no hace falta que alguien suba directamente tus datos para que se saquen conclusiones útiles sobre ti. Se puede inferir bastante a partir de patrones parecidos, del grupo al que perteneces o del entorno en el que te mueves.
                                     </p>
                                 </div>
 
                                 <div class="debate-side defend">
                                     <h4>Me parece uno de los mayores aciertos del libro</h4>
                                     <p>
-                                        Aun con ese matiz, esta es seguramente una de sus ideas más potentes. Si vivimos en redes compartidas, la privacidad no puede entenderse solo como una decisión privada, sino que tiene sentido tratarla como una condición común que necesita protección real, pporque lo que te afecta a un individuo, acaba salpicando a todos.
+                                        Aun con ese matiz, esta es seguramente una de sus ideas más potentes. Si vivimos en redes compartidas, la privacidad no puede entenderse solo como una decisión privada, sino que tiene sentido tratarla como una condición común que necesita protección real, porque lo que te afecta a un individuo acaba salpicando a todos.
                                     </p>
                                 </div>
                             </div>
@@ -431,21 +440,21 @@
                         <article class="debate-card">
                             <div class="debate-head">
                                 <span class="debate-label">ARGUMENTO 3</span>
-                                <h3>“La vigilancia daña directamente a la democracia”</h3>
+                                <h3>"La vigilancia daña directamente a la democracia"</h3>
                             </div>
 
                             <div class="debate-body">
                                 <div class="debate-side critic">
                                     <h4>Hoy el escenario es incluso más peligroso</h4>
                                     <p>
-                                        Véliz se apoya bastante en ejemplos como Cambridge Analytica, pero ahora el problema va más allá de la division política clásica. Hoy ya no se trata solo de influir en opiniones, sino de detectar vulnerabilidades, cansancio o impulsividad. La influencia no siempre busca convencerte de una idea: a veces solo necesita empujarte lo justo.
+                                        Véliz se apoya bastante en ejemplos como Cambridge Analytica, pero ahora el problema va más allá de la división política clásica. Hoy ya no se trata solo de influir en opiniones, sino de detectar vulnerabilidades, cansancio o impulsividad. La influencia no siempre busca convencerte de una idea: a veces solo necesita empujarte lo justo.
                                     </p>
                                 </div>
 
                                 <div class="debate-side defend">
                                     <h4>El argumento central me parece correcto</h4>
                                     <p>
-                                        Con todo, sigo creyendo que aquí Véliz acierta mucho a causa de que si quienes tienen más recursos conocen mejor qué estímulos funcionan sobre una población, la autonomía se reduce. Y cuanto mas la autonomía se estreche, mas la democracia deja de apoyarse en ciudadanos libres y empieza a apoyarse en usuarios moldeables.
+                                        Con todo, sigo creyendo que aquí Véliz acierta mucho. Si quienes tienen más recursos conocen mejor qué estímulos funcionan sobre una población, la autonomía se reduce. Y cuanto más la autonomía se estreche, más la democracia deja de apoyarse en ciudadanos libres y empieza a apoyarse en usuarios moldeables.
                                     </p>
                                 </div>
                             </div>
@@ -454,16 +463,19 @@
 
                     <div class="verdict-box emphasis">
                         <strong>Mi conclusión:</strong>
-                        Véliz cumple muy bien haciedo una función de alarma. Obliga a tomarse en serio un problema que durante estos ultimos años se ha tratado como si fuera el precio normal por el hecho de usar tecnología. Pero para responder de verdad no basta con indignarse ni con pedir prudencia: hacen falta límites técnicos, diseño seguro y reglas más duras desde el principio.
+                        Véliz cumple muy bien haciendo una función de alarma. Obliga a tomarse en serio un problema que durante estos últimos años se ha tratado como si fuera el precio normal por el hecho de usar tecnología. Pero para responder de verdad no basta con indignarse ni con pedir prudencia: hacen falta límites técnicos, diseño seguro y reglas más duras desde el principio.
                     </div>
                 </section>
 
+                <!-- ============================
+                     SECCIÓN 4: MAPA
+                ============================ -->
                 <section id="panel-mapa" class="content-section">
                     <div class="section-header">
-                        <span class="section-tag">DIFERENTE PUNTOS DE VISTA</span>
+                        <span class="section-tag">DIFERENTES PUNTOS DE VISTA</span>
                         <h2>De dónde vienen estas ideas y cómo se cruzan</h2>
                         <p class="section-lead">
-                            Este mapa no está pensado para decorar, sino para situar mejor el debate. He decidio conectar diferentes autores que me ayudan a leer el mismo problema desde ángulos distintos: vigilancia como forma de poder, explotación económica del dato, prueba política de la vigilancia masiva, diseño técnico de sistemas más seguros y divulgación crítica de todo ese ecosistema.
+                            Este mapa no está pensado para decorar, sino para situar mejor el debate. He decidido conectar diferentes autores que me ayudan a leer el mismo problema desde ángulos distintos: vigilancia como forma de poder, explotación económica del dato, prueba política de la vigilancia masiva, diseño técnico de sistemas más seguros y divulgación crítica de todo ese ecosistema.
                         </p>
                     </div>
 
@@ -480,7 +492,7 @@
                                 <h3>Selecciona un autor</h3>
                                 <div class="author-role">Marco de lectura</div>
                                 <div class="author-text">
-                                    Haz clic sobre uno de los circulos para abrir su ficha y ver por qué los diferentes autores están conectados entre sí dentro de este mapa mental
+                                    Haz clic sobre uno de los círculos para abrir su ficha y ver por qué los diferentes autores están conectados entre sí dentro de este mapa mental.
                                 </div>
                             </div>
                         </div>
@@ -494,7 +506,7 @@
 
                     <div class="verdict-box">
                         <strong>Para cerrar:</strong>
-                        Después de leer el libro y de investigar todo esto, la sensación que me queda es que la privacidad no es un adorno ni algo que 'esté de moda'. Es, sencillamente, lo mínimo que necesitamos para que otros no manden sobre nuestras vidas sin que nos demos cuenta. Nos hemos acostumbrado a regalar datos como si no valieran nada, pero el precio está ahí y es altísimo. El problema es que esa factura no te llega de golpe al principio, y por eso es tan fácil despistarse y reaccionar cuando ya es demasiado tarde.
+                        Después de leer el libro y de investigar todo esto, la sensación que me queda es que la privacidad no es un adorno ni algo que "esté de moda". Es, sencillamente, lo mínimo que necesitamos para que otros no manden sobre nuestras vidas sin que nos demos cuenta. Nos hemos acostumbrado a regalar datos como si no valieran nada, pero el precio está ahí y es altísimo. El problema es que esa factura no te llega de golpe al principio, y por eso es tan fácil despistarse y reaccionar cuando ya es demasiado tarde.
                     </div>
 
                     <div class="references-box">
@@ -508,8 +520,8 @@
                             <li><strong>Marta Peirano</strong> (2019). <em>El enemigo conoce el sistema.</em> Debate.</li>
                         </ul>
                         <br>
-                        <p style="font-style: italic; margin-bottom: 10px; font-size: 12px; text-align: justify;"> 
-                            *Nota: Para profundizar en las ideas de estos autores, he consultado tanto resúmenes de sus libros, vídeos y artículos explicativos que muestran sus posturas principales. 
+                        <p style="font-style: italic; margin-bottom: 10px; font-size: 12px; text-align: justify;">
+                            *Nota: Para profundizar en las ideas de estos autores, he consultado tanto resúmenes de sus libros, vídeos y artículos explicativos que muestran sus posturas principales.
                         </p>
                     </div>
 
